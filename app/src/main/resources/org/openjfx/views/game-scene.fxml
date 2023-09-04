@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.canvas.Canvas?>
+
+
+
+<Group xmlns="http://javafx.com/javafx/17.0.8" xmlns:fx="http://javafx.com/fxml/1"
+ fx:controller="org.openjfx.controllers.FXMLControllerGame">
+    <Canvas fx:id="canvas" width="200" height="400" />
+</Group>

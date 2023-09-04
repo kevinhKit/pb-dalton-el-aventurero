@@ -1,0 +1,26 @@
+plugins {
+  id 'application'
+//   id 'gradle.javafx.javafxplugin' version '0.0.13'
+  id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+repositories {
+    mavenCentral()
+}
+// sourceCompatibility = '17'
+// targetCompatibility = '17'
+javafx {
+    version = "17.0.8"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+// javafx {
+//     version = "20"
+//     modules = [ 'javafx.controls', 'javafx.fxml' ]
+// }
+
+application {
+    mainClass = 'org.openjfx.implementations.MainApp'
+    // mainClassName = 'gradle.javafx.MainApp'
+    // mainClass = 'gradle.javafx.MainApp'
+}
